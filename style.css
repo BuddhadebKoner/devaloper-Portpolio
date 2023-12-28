@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: white;
+    width: 100vw;
+    height: 200vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.margintop {
+    margin-top: 10px;
+}
+
+.bg-parertn {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    z-index: -1;
+}
+
+.bannerContent {
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    position: absolute;
+    padding: 20rem 0 0 10rem;
+}
+
+.Medialinks {
+    margin-top: 15px;
+}
+
+.Medialinks-aTag {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.aboutUs {
+    width: 100%;
+    height: 70vh;
+    background-color: transparent;
+    position: absolute;
+    top: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagesection {
+    width: 50%;
+    height: fit-content;
+    position: static;
+    padding-left: 150px;
+}
+
+.about-partern {
+    width: 100px;
+    position: absolute;
+    z-index: -1;
+}
+
+.about-image {
+    width: 400px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 180px;
+    filter: grayscale();
+}
+
+.aboutsection {
+    width: 50%;
+    height: 100%;
+    padding-right: 150px;
+    color: black;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.aboutsection h1 {
+    color: red;
+}
+
+.aboutsection p {
+    color: #000C24;
+    font-family: Spartan;
+    font-size: 28.533px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+
+
+.about-image:hover {
+    filter: none;
+}
+
+.showresumebtn {
+    margin-top: 30px;
+    display: inline-flex;
+    padding: 19.022px 28.533px;
+    justify-content: center;
+    align-items: center;
+    gap: 11.889px;
+    border-radius: 4.756px;
+    background: #000C24;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bgimage2{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 120vh;
+    z-index: -2;
+}
