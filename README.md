@@ -1,1 +1,1 @@
-# curently i am working in this project
+# Currently, I am working on this project.
