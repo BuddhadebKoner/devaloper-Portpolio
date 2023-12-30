@@ -230,7 +230,6 @@ footer {
     top: 50px;
     border-radius: 10px;
     filter: grayscale(60%);
-    mix-blend-mode: hard-light;
 }
 
 .pichartsection {
@@ -377,7 +376,7 @@ footer {
     color: #FFF;
     background-color: #F85F73;
     font-family: 'Spartan', sans-serif;
-    font-size: 16.644px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
     line-height: 170%; /* 28.296px */
@@ -389,4 +388,8 @@ footer {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.githubiconworksection{
+    margin-top: 10px;
+    width: 40px;
 }

@@ -1,18 +1,18 @@
 const projects = [
     // (Projects array remains unchanged)
     {
-        image: 'projectDetails/project1.jpg',
-        title: 'Calculater',
-        details: 'An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ',
-        skills: ['HTML', 'CSS', 'JS'],
-        link: 'https://github.com/BuddhadebKoner/stylelist-calculater'
-    },
-    {
         image: 'projectDetails/project2.jpg',
         title: 'Travel vlog webapp',
         details: 'This is the details text for Project 2.',
         skills: ['python', 'c++'],
         link: 'https://github.com/BuddhadebKoner/TravelVlogerWebapp'
+    },
+    {
+        image: 'projectDetails/project1.jpg',
+        title: 'Calculater',
+        details: 'An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ',
+        skills: ['HTML', 'CSS', 'JS'],
+        link: 'https://github.com/BuddhadebKoner/stylelist-calculater'
     },
     {
         image: 'projectDetails/project3.jpg',
@@ -54,7 +54,7 @@ function getProjectHTML(index) {
             <p class="DetailsInAboutSectionHeading3">${project.details}</p>
             <ul>${skillsHTML}</ul>
             <a href="${project.link}" target="_blank"><a href="#" target="_blank">
-            <img src="icons/github.svg" alt="">
+            <img src="icons/github.svg" alt="" class="githubiconworksection">
         </a></a>
         </div>
     `;
