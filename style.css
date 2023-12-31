@@ -368,6 +368,7 @@ main {
 
 .project-details ul {
     color: #FFF;
+    margin-top: 20px;
     background-color: #F85F73;
     font-family: 'Spartan', sans-serif;
     font-size: 1.5rem;

@@ -45,10 +45,10 @@ function getProjectHTML(index) {
         <div class="project-details">
             <h2>${project.title}</h2>
             <p class="DetailsInAboutSectionHeading3">${project.details}</p>
-            <ul>${skillsHTML}</ul>
             <a href="${project.link}" target="_blank">
             <img src="icons/github.svg" alt="" class="githubiconworksection">
             </a>
+            <ul>${skillsHTML}</ul>
         </div>
     `;
 }
