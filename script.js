@@ -3,22 +3,15 @@ const projects = [
     {
         image: 'projectDetails/project2.jpg',
         title: '1. Travel vlog webapp',
-        details: 'This is the details text for Project 2.',
-        skills: ['python', 'c++'],
+        details: 'This website is a clone of yatridoctor.graphy. It has a login popup and many other features. Click on the GitHub icon to access the code.',
+        skills: ['HTML','CSS','JS'],
         link: 'https://github.com/BuddhadebKoner/TravelVlogerWebapp'
     },
     {
-        image: 'projectDetails/project1.jpg',
-        title: '2. Calculater',
-        details: 'An inquisitive Computer Science Engineering student, skilled in leadership, seeking to leverage solid development skills with focus on collaboration, communication and passion. ',
-        skills: ['HTML', 'CSS', 'JS'],
-        link: 'https://github.com/BuddhadebKoner/stylelist-calculater'
-    },
-    {
         image: 'projectDetails/project3.jpg',
-        title: '3. Advance portpoilo',
-        details: 'This is the details text for Project 3.',
-        skills: ['HTML', 'c#'],
+        title: '2. Advance portpoilo',
+        details: 'This is a portfolio website that is fully responsive for any device. There is a section showcasing YouTube videos. Click on the GitHub icon to access the code.',
+        skills: ['HTML', 'CSS','JS'],
         link: 'https://github.com/BuddhadebKoner/advance-portpolio'
     },
     // ... (repeat for other projects)
