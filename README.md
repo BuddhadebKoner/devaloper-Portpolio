@@ -11,7 +11,7 @@ Follow these steps to kickstart your journey to an elevated professional profile
 2. **Clone the Repository**: Clone the forked repository to your local machine using the following command:
 
     ```bash
-    git clone https://github.com/your-username/elevate-professional-profile.git
+   git clone https://github.com/BuddhadebKoner/elevate-professional-profile.git
     ```
 
 3. **Customize Your Website**: Personalize the content of the website to reflect your skills, experiences, and projects. The main files to edit are located in the `src` directory. Feel free to modify the HTML, CSS, and JavaScript files to match your style.
