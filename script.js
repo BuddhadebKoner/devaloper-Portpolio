@@ -1,14 +1,14 @@
 const projects = [
     // (Projects array remains unchanged)
     {
-        image: 'projectDetails/project2.jpg',
+        image: 'projectDetails/advance-portpolio-webapp-project.webp',
         title: '1. Travel vlog webapp',
         details: 'This website is a clone of yatridoctor.graphy. It has a login popup and many other features. Click on the GitHub icon to access the code.',
         skills: ['HTML','CSS','JS'],
         link: 'https://github.com/BuddhadebKoner/TravelVlogerWebapp'
     },
     {
-        image: 'projectDetails/project3.jpg',
+        image: 'projectDetails/travelvlog-webapp-project.webp',
         title: '2. Advance portpoilo',
         details: 'This is a portfolio website that is fully responsive for any device. There is a section showcasing YouTube videos. Click on the GitHub icon to access the code.',
         skills: ['HTML', 'CSS','JS'],
