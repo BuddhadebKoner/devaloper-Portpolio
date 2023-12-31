@@ -124,7 +124,7 @@ main {
 
 .aboutsection {
     width: 100%;
-    height: 63.3rem;
+    min-height: 63.3rem;
     background-color: transparent;
     display: flex;
 }
@@ -136,22 +136,18 @@ main {
     position: relative;
 }
 
+
 #AboutImageBuddhadeb {
     width: 500px;
     position: absolute;
     left: 50px;
     top: 50px;
     border-radius: 10px;
-    filter: grayscale();
 }
 
 #BGpartern {
     position: absolute;
     left: 0;
-}
-
-#AboutImageBuddhadeb:hover {
-    filter: none;
 }
 
 .DetailsInAboutSection {
@@ -209,6 +205,12 @@ main {
     min-height: 58.3rem;
     background-color: transparent;
     display: flex;
+}
+.imageInSkilltSection{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
 }
 
 #BGpartern2 {
@@ -306,7 +308,7 @@ main {
 .worksection {
     width: 100%;
     height: 50rem;
-    background-color: transparent;
+    background-color:transparent;
     display: flex;
 }
 
@@ -396,12 +398,13 @@ main {
 
 footer {
     width: 100%;
-    height: 61rem;
+    min-height: 61rem;
     background-color: transparent;
     opacity: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 
 .feedback {
@@ -410,19 +413,14 @@ footer {
     background-color: transparent;
 }
 
-.copyright {
-    width: 100%;
-    height: 25%;
-    background-color: #fff;
-}
-
 .feedbackContainer {
-    width: 100%;
-    height: 100%;
+    background-color: #fff;
+    width: 80vw;
+    height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10rem;
+    margin: 10vw;
 }
 
 .feedbackHeading {
@@ -480,7 +478,7 @@ footer {
     border-radius: 4.756px;
     border: 1.189px solid #000;
     background: #FFF;
-    width: 480px;
+    width: 95%;
     height: 40px;
     flex-shrink: 0;
 }
@@ -488,7 +486,7 @@ footer {
     border-radius: 4.756px;
     border: 1.189px solid #000;
     background: #FFF;
-    width: 480px;
+    width: 95%;
     height: 120px;
     flex-shrink: 0;
 }
@@ -511,3 +509,20 @@ footer {
     line-height: 170%;
     text-align: top;
 }
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.copyright > *{
+    margin-top: 10px;
+}
+

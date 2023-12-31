@@ -1,0 +1,113 @@
+@media (max-width: 1240px) {
+    .aboutsection,
+    .headcontent {
+        min-height: 40rem;
+    }
+    .skillsection{
+        min-height: 50rem;
+    }
+    .footer{
+        min-height: 50rem;
+    }
+
+    .DetailsInAboutSection {
+        padding-top: 100px;
+    }
+
+    .DetailsInAboutSectionHeading3 {
+        background-color: white;
+        font-size: 25.533px;
+    }
+
+    .btnInAboutSection {
+        padding: 12.022px 28.533px;
+    }
+
+    #AboutImageBuddhadeb,
+    #AboutImageBuddhadeb2 {
+        width: 382px;
+    }
+
+    #BGpartern,
+    #BGpartern2 {
+        width: 11rem;
+    }
+
+    .worksectiondetailstext {
+        font-size: 1.2rem;
+    }
+    .feedbackContainer{
+        
+    }
+
+
+
+
+}
+
+@media (max-width:1434px) {
+    .worksection {
+        flex-direction: column;
+    }
+
+    .project-box {
+        width: 100%;
+    }
+
+    .project-details {
+        width: 100%;
+        text-align: center;
+    }
+
+    .laptopFream {
+        top: 1rem;
+    }
+
+    .project-image {
+        top: 8.904rem;
+    }
+
+    .project-details {
+        padding-top: 7rem;
+    }
+
+    .worksectiondetailstext {
+        padding: 0 200px 0 200px;
+        background-color: transparent;
+    }
+
+    .project-details ul {
+        display: flex;
+        justify-content: center;
+    }
+    .circle-container{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 984px) {
+
+    #AboutImageBuddhadeb,
+    #AboutImageBuddhadeb2 {
+        width: 300px;
+    }
+
+    #BGpartern,
+    #BGpartern2 {
+        width: 8rem;
+    }
+
+    .circle-container {
+        width: 70px;
+        height: 70px;
+    }
+
+    .new-circle3 {
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+/* Mobile devices */
+@media (max-width: 600px) {}
