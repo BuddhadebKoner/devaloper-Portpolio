@@ -39,7 +39,7 @@ function getProjectHTML(index) {
         <p class="DetailsInAboutSectionHeading3">${project.title}</p>
         <img src="img/laptopFream.png" alt="" class="laptopFream">
             <img src="${project.image}" alt="${project.title}" class="project-image">
-            <button class="swap-button" onclick="showNextProject()"><img src="svgItems/Frame.svg" alt=""></button>
+            <button class="swap-button" onclick="showNextProject()"><img src="svgItems/Frame.svg" alt="" class="arrowIconBtn"></button>
         </div>
         
         <div class="project-details">
