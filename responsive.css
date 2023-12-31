@@ -98,6 +98,9 @@
     .arrowIconBtn{
         width: 80px;
     }
+    .headcontent {
+        min-height: 48rem;
+    }
 }
 
 @media (max-width: 984px) {
