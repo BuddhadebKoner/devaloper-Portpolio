@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=PT+Serif&display=swap');
 
-
+@font-face {
+    font-family: 'League Spartan';
+    src: url('fonts/LeagueSpartan-VariableFont_wght.ttf') format('truetype'); /* Change 'ttf' to 'truetype' */
+  }
+  
 
 * {
     padding: 0;
@@ -20,8 +23,8 @@ body {
     background-color: #ffffff;
     color: #333333;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
+    font-family: 'League Spartan';
 }
 
 ::-webkit-scrollbar {
@@ -170,7 +173,6 @@ main {
 
 .DetailsInAboutSectionHeading3 {
     color: #000C24;
-    font-family: 'League Spartan';
     font-size: 28.533px;
     font-style: normal;
     font-weight: 400;
@@ -372,7 +374,6 @@ main {
     color: #FFF;
     margin-top: 20px;
     background-color: #F85F73;
-    font-family: 'Spartan', sans-serif;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 500;
@@ -444,7 +445,6 @@ footer {
 
 .feedbackHeading p {
     color: #000C24;
-    font-family: 'League Spartan';
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 600;
@@ -502,7 +502,6 @@ footer {
 
 .feedbackcontent > ::placeholder {
     color: #928A97;
-    font-family: 'League Spartan';  
     font-size: 23px;
     font-style: normal;
     font-weight: 400;
